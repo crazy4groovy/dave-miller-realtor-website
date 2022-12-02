@@ -1,26 +1,3 @@
-/********** TEMPORARY / TESTING ONLY **********/
-
-body {
-    counter-reset: container;
-}
-
-.container {
-    border: 2px dotted blueviolet;
-}
-.container:before {
-    color: blueviolet;
-    content: "Section " counter(container) ":";
-    counter-increment: container;
-}
-
-/* #header-carousel .container {
-    border: auto;
-} */
-#header-carousel .container:before {
-    color: transparent;
-    content: none;
-}
-
 /********** CUSTOM **********/
 
 
@@ -558,7 +535,7 @@ h6,
 
 .copyright {
     color: var(--light);
-    background: #000B1C;
+    background: #2B2B2B;
 }
 
 .copyright a {
