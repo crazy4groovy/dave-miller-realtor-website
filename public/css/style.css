@@ -1,5 +1,10 @@
 /********** CUSTOM **********/
 
+img.logo-small {
+    width: 110px;
+    vertical-align: baseline;
+    padding-left: 2rem;
+}
 
 /********** Template CSS **********/
 :root {
